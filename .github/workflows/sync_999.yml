@@ -1,7 +1,7 @@
 name: Auto Update 999_Chrome Latest
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每 6 小时检查一次
+    - cron: '0 0 */2 * *' # 每 48 小时检查一次
   workflow_dispatch:      # 支持手动触发
 
 jobs:
